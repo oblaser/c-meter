@@ -1,0 +1,26 @@
+# gitignore for MPLAB X projects
+# based on https://microchipdeveloper.com/faq:72
+
+*.d
+*.lst
+*.map
+*.o
+*.obj
+*.obj.dmp
+*.p1
+*.pre
+*.sdb
+*.sym
+
+/build/
+/dist/
+/nbproject/*
+!/nbproject/configurations.xml
+!/nbproject/project.properties
+!/nbproject/project.xml
+
+
+# additional in this project (seems to be because of the old project version)
+
+funclist
+Makefile
